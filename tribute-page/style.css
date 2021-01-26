@@ -1,0 +1,72 @@
+/*  || GENERAL STYLES */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 10px;
+}
+
+/* || UTILITIES */
+
+/* || SITEWIDE */
+
+#main {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    text-align: center;
+    padding-top: 1em;
+}
+
+#image-div {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#tribute-info {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.quote {
+    text-align: left;
+    font-style: italic;
+}
+
+.quote > p {
+    margin-bottom: 20px;
+}
+
+/* || STORE PAGES */ ;

@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#title,
+#description {
+    text-align: center;
+}
+
+#survey-form {
+}
