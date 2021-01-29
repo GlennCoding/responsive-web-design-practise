@@ -3,6 +3,7 @@ html {
     font-size: 16px;
     line-height: 1.5;
     font-family: "Open Sans", Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 *,
 *:before,
